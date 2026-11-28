@@ -102,6 +102,7 @@ a { color: var(--river); }
 /* province detail strip under the map */
 .province-bar {
   background: var(--paper);
+  color: var(--ink);
   border: 1px solid var(--line);
   border-top: none;
   padding: 18px 22px;

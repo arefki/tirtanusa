@@ -6,7 +6,7 @@ import Dashboard from '../components/Dashboard';
 import ReportSection from '../components/ReportSection';
 import { loadGeoJson, loadNational, loadProvinces, rankOf } from '../lib/data';
 import type { NationalData, ProvincesData } from '../lib/data';
-import { listReports } from '../lib/reports';
+import { listReports, EXAMPLE_REPORTS } from '../lib/reports';
 import type { Report } from '../lib/reports';
 
 // Leaflet touches `window` at import time, so the map loads client-side only.
@@ -39,7 +39,7 @@ export default function Home() {
   const [national, setNational] = useState<NationalData | null>(null);
   const [geojson, setGeojson] = useState<GeoJSON.FeatureCollection | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
-  const [reports, setReports] = useState<Report[]>([]);
+  const [reports, setReports] = useState<Report[]>(EXAMPLE_REPORTS);
   const [loadError, setLoadError] = useState<string | null>(null);
 
   useEffect(() => {

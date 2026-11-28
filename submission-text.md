@@ -140,6 +140,7 @@ Next.js, React, TypeScript, Leaflet, Supabase, GitHub Pages
 
 ## Links
 
-- Live site: _(filled in after GitHub Pages deploy — see DEPLOY.md)_
-- Repository: _(filled in by parent agent)_
+- Live site: https://arefki.github.io/tirtanusa/ (GitHub Pages, deploy workflow run #1 re-run success 21:28 WIB; verified HTTP 200 + GeoJSON + fonts by parent)
+- Repository: https://github.com/arefki/tirtanusa (push 8702e2e via connector 30 files; workflow + 10 fonts via browser web UI)
+- Devpost project: https://devpost.com/software/tirtanusa-clean-water-province-by-province — SUBMITTED 2026-11-23 21:33 WIB to Acodemic X KeebsforWater Global SDG Hackathon, submission #1317452, account rahmatarefqi (solo). Title on Devpost: "TirtaNusa — Clean water, province by province" (45 chars; Devpost max 60 — full title kept as description line 1). 5 screenshots in gallery. Editable until deadline Dec 1, 2026 11:45 WIB.
 - Demo video: optional — not included.

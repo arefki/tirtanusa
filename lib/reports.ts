@@ -38,8 +38,9 @@ export const storageMode: 'supabase' | 'local' =
 
 // Example reports, clearly labelled as examples in the UI. They exist so a
 // first-time visitor can see how the feature works; they are not real reports
-// and are never presented as such.
-const EXAMPLE_REPORTS: Report[] = [
+// and are never presented as such. Exported so the page can render them on
+// first paint instead of flashing "No reports yet" before hydration.
+export const EXAMPLE_REPORTS: Report[] = [
   {
     id: 'example-1',
     province: 'Papua Pegunungan',
